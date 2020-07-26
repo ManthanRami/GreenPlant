@@ -1,0 +1,149 @@
+#container
+{
+	padding: 3% 15% 10%;
+
+}
+#title{
+	background-color: #99C24D;
+}
+.title-image{
+	width: 60%;
+	position: absolute;
+	transform: rotate(30deg);
+	right: 30%;
+}
+
+body{
+	font-family: "Montserrat";
+}
+h1{
+	font-family: "Montserrat";
+	font-size: 3.5rem;
+	line-height: 1.5%
+}
+
+/*Navigation Bar*/
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+
+	font-size: 1.2rem;
+	font-family: "Poppins-Thin";
+}
+
+#features{
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+}
+.feature-box{
+	padding: 5%;
+}
+
+
+
+.icon{
+	color: #68BB59;
+	margin: 1rem;
+}
+.icon:hover{
+	color:#99C24D;
+}
+
+
+
+#testimonials{
+	background-color: #68BB59;
+	text-align: center;
+	color: white;}
+#testimonials img{
+	border-radius: 100%;
+	margin: 20px;
+	width: 10%;
+}
+#testimonials h2{
+	font-size: 3.5rem;
+	font-weight: bold;
+	font-family: 'Poppins-Bold';
+	line-height:1.5;
+}
+
+
+#pricing p{
+	color: grey;
+}
+
+#press{
+	background-color: #68BB59;
+	text-align: center;
+}
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+
+
+.carousel-item{
+	padding: 5% 10%;
+}
+
+
+
+#pricing,h2,h3{
+	font-family: 'Poppins';
+}
+#pricing{
+
+	padding: 100px;
+	text-align: center;
+}
+.pricing-coloumn{
+	padding: 3% 2%;
+}
+
+#paid {
+	background-color: #8abaae;
+}
+
+#card-title{
+	background-color: #d4eee2;
+}
+
+@media (max-width: 992px)
+{
+	#title{
+		text-align: center;
+	}
+	.title-image{
+		position: static;
+		transform: rotate(0);
+		margin-top: 20px;
+	}
+}
+
+
+
+
+/*CTA*/
+#cta{
+	text-align: center;
+	background-color: #99C24D;
+	padding: 7% 15%;
+	color: white;
+}
+
+#cta h3{
+	font-size: 3.5rem;
+	font-weight: bold;
+	font-family: 'Montserrat';
+	line-height:1.5;
+
+}
+
+
+/*footer*/
+#footer{
+	padding: 4% 15%;
+}
